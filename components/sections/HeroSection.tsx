@@ -75,7 +75,7 @@ export default function HeroSection() {
           <SplitText
             text={hero.heading[0]}
             tag="h1"
-            className="text-white text-5xl md:text-6xl lg:text-7xl font-bold font-manrope leading-[1.1]"
+            className="text-white text-4xl md:text-6xl lg:text-7xl font-bold font-manrope leading-[1.1]"
             delay={0.035}
             duration={0.9}
           />
@@ -83,7 +83,7 @@ export default function HeroSection() {
           <SplitText
             text={hero.heading[1]}
             tag="span"
-            className="text-white text-5xl md:text-6xl lg:text-7xl font-bold font-manrope leading-[1.1]"
+            className="text-white text-4xl md:text-6xl lg:text-7xl font-bold font-manrope leading-[1.1]"
             delay={0.035}
             duration={0.9}
           />
